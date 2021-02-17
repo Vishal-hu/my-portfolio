@@ -30,7 +30,7 @@ function Project() {
 				<section className='grid grid-cols-2 gap-8'>
 					{projectData &&
 						projectData.map((project, index) => (
-							<article className='absolute rounded-lg shadow-xl bg-white p-14'>
+							<article className='relative rounded-lg shadow-xl bg-white p-14'>
 								<h3 className='text-gray-800 text-3xl font-bold mb-3 hover:text-red-800'>
 									<a
 										href={project.link}

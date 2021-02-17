@@ -5,7 +5,7 @@ import React from "react";
 function Navbar() {
 	return (
 		<header className='bg-pink-500 md:flex '>
-			<div className='container mx-auto flex justify-center'>
+			<div className='container mx-auto flex justify-center inflex'>
 				<nav className='flex '>
 					<NavLink
 						exact

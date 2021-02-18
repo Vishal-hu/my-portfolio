@@ -28,3 +28,36 @@ font-family: "Stalinist One", cursive;
 .home-name {
     font-size: 150px;
 }
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-name {
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    max-width: auto;
+    max-height: auto;
+}
+
+@media all and (max-width: 540px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 540px) {
+    article {
+        flex-direction: column;
+    }
+}
+
+div footer {
+    text-align: center;
+    background-color: pink;
+}

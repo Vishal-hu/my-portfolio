@@ -7,7 +7,7 @@ import Post from "./components/Post";
 import Project from "./components/Project";
 import Navbar from "./components/Navbar";
 import Error from "./components/Error";
-
+import Footer from "./components/Footer";
 function App() {
 	return (
 		<>
@@ -20,6 +20,8 @@ function App() {
 				<Route path='/project' component={Project} />
 				<Route component={Error} />
 			</Switch>
+
+			<Footer />
 		</>
 	);
 }

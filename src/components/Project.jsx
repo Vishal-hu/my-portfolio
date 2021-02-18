@@ -30,7 +30,7 @@ function Project() {
 				<section className='grid grid-cols-2 gap-8'>
 					{projectData &&
 						projectData.map((project, index) => (
-							<article className='relative rounded-lg shadow-xl bg-white p-14'>
+							<article className='relative rounded-lg shadow-xl bg-white p-14 '>
 								<h3 className='text-gray-800 text-3xl font-bold mb-3 hover:text-red-800'>
 									<a
 										href={project.link}
@@ -53,7 +53,7 @@ function Project() {
 										<strong className='font-bold'>Type</strong>:{""}
 										{project.projectType}
 									</span>
-									<p className='my-6 text-lg text-gray-700 leading-relaxed'>
+									<p className='my-6 text-lg text-gray-700'>
 										{project.description}
 									</p>
 									<a

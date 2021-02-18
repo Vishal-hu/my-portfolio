@@ -28,7 +28,11 @@ function About() {
 	return (
 		<div>
 			<div className='bg-green-300 cursive text-center justify-center p-10'>
-				<a href='mailto:rajputvishal21598@gmail.com'>TOUCH ME</a>
+				<a
+					className='font-bold text-2xl hover:text-green-800'
+					href='mailto:rajputvishal21598@gmail.com'>
+					TOUCH ME
+				</a>
 			</div>
 			<main className='relative'>
 				<img
